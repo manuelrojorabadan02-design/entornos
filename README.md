@@ -82,6 +82,10 @@ Esta guía detalla cómo configurar, ejecutar y utilizar la aplicación de gesti
   - **Maven**
   - **Un editor o IDE** como IntelliJ IDEA, Eclipse o VS Code
   - **Opcional:** Un navegador web para acceder a la consola de la base de datos **H2**
+**Clonar proyecto**
+- git clone <[URL_DEL_REPOSITORIO](https://github.com/manuelrojorabadan02-design/entornos.git)>
+- cd investigacion
+
 
 
 
