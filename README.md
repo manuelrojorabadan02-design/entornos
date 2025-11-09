@@ -78,13 +78,23 @@ Esta guía detalla cómo configurar, ejecutar y utilizar la aplicación de gesti
 **Requisitos Previos**
 
 -Asegúrese de tener instalados los siguientes componentes antes de ejecutar el proyecto:\
+ 
   - **Java 17 JDK**
   - **Maven**
   - **Un editor o IDE** como IntelliJ IDEA, Eclipse o VS Code
   - **Opcional:** Un navegador web para acceder a la consola de la base de datos **H2**
+
 **Clonar proyecto**
+
 - git clone <[URL_DEL_REPOSITORIO](https://github.com/manuelrojorabadan02-design/entornos.git)>
 - cd (donde quieras ubicarlo)
+
+**Abrir el proyecto**
+
+-Para trabajar con el proyecto de gestión de usuarios, abra la carpeta del proyecto en su IDE preferido, 
+nosotros recomendamos usar IntelliJ IDEA.
+El IDE se encargará de reconocer automáticamente la configuración de Maven y Spring Boot.
+
 
 
 
