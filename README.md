@@ -28,76 +28,41 @@ src/main/java/com/grupoinvestigaciondam/investigacion/
 -Maven (gestión de dependencias)
 
 
-DEPENDENCIAS
-Dependencias de Spring Boot
-Este proyecto utiliza Spring Boot 3.5.7 y las siguientes dependencias principales:
-spring-boot-starter-web
- Proporciona todo lo necesario para crear aplicaciones web y RESTful.
- Incluye:
+## DEPENDENCIAS
+Este proyecto utiliza **Spring Boot 3.5.7** y las siguientes dependencias principales:
 
+1. **spring-boot-starter-web**  
+   - Proporciona todo lo necesario para crear aplicaciones web y RESTful.  
+   - Incluye:  
+     - Servidor Tomcat embebido (por defecto)  
+     - Soporte para REST APIs  
+     - Configuración automática de Spring MVC  
 
-Servidor Tomcat embebido (por defecto)
+2. **spring-boot-starter-data-jpa**  
+   - Permite la integración con bases de datos mediante JPA (Java Persistence API).  
+   - Incluye:  
+     - Spring Data JPA  
+     - Soporte para repositorios y operaciones CRUD automáticas  
+     - Configuración automática de EntityManager y transacciones  
 
+3. **h2**  
+   - Base de datos en memoria utilizada para pruebas.  
+   - Características:  
+     - Fácil de configurar  
+     - Ideal para entornos de desarrollo y testing  
+     - No requiere instalación externa  
 
-Soporte para REST APIs
+4. **lombok**  
+   - Biblioteca que reduce el boilerplate code en Java.  
+   - Permite:  
+     - Generar getters/setters, constructores y `toString` automáticamente  
+     - Uso de anotaciones como `@Data`, `@Getter`, `@Setter`, `@NoArgsConstructor`, etc.  
 
-
-Configuración automática de Spring MVC
-
-
-spring-boot-starter-data-jpa
- Permite la integración con bases de datos mediante JPA (Java Persistence API).
- Incluye:
-
-
-Spring Data JPA
-
-
-Soporte para repositorios y operaciones CRUD automáticas
-
-
-Configuración automática de EntityManager y transacciones
-
-
-h2
- Base de datos en memoria utilizada para pruebas.
- Características:
-
-
-Fácil de configurar
-
-
-Ideal para entornos de desarrollo y testing
-
-
-No requiere instalación externa
-
-
-lombok
- Biblioteca que reduce el boilerplate code en Java.
- Permite:
-
-
-Generar getters/setters, constructores y toString automáticamente
-
-
-Anotaciones como @Data, @Getter, @Setter, @NoArgsConstructor, etc.
-
-
-spring-boot-starter-test
- Incluye todas las herramientas necesarias para testing en Spring Boot:
-
-
-JUnit 5 para pruebas unitarias
-
-
-Mockito para mocks
-
-
-Soporte para Spring Boot Test y pruebas de integración
-
-
-
+5. **spring-boot-starter-test**  
+   - Incluye todas las herramientas necesarias para testing en Spring Boot:  
+     - JUnit 5 para pruebas unitarias  
+     - Mockito para mocks  
+     - Soporte para Spring Boot Test y pruebas de integración  
 
 
 
