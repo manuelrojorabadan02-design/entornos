@@ -1,6 +1,10 @@
 ## Proyecto: Gestión de Usuarios - Spring Boot
-Se trata de una aplicación CRUD de gestión de usuarios desarrollada con Java 17 y Spring Boot 3.5.7, utilizando Spring Data JPA para la persistencia de datos.
-Esta aplicacion permite crear, listar, actualizar y eliminar usuarios mediante endpoints REST
+-Se trata de una aplicación CRUD de gestión de usuarios desarrollada con Java 17 y Spring Boot 3.5.7, utilizando Spring Data JPA para la persistencia de datos.
+
+-Esta aplicacion permite crear, listar, actualizar y eliminar usuarios mediante endpoints REST.
+
+-Consta de varios archivos, con el modelo de arquitectura vista controlador.
+  Es un patrón de arquitectura de software que divide una aplicación en tres componentes interconectados: el Modelo, la Vista y el Controlador
 
 ## Estructura del archivo
 
@@ -28,6 +32,7 @@ src/main/java/com/grupoinvestigaciondam/investigacion/
 
 The `JAVA PROJECTS` view alows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 Hola este es de antonio luis
+
 
 
 
