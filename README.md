@@ -71,6 +71,18 @@ Este proyecto utiliza **Spring Boot 3.5.7** y las siguientes dependencias princi
      - Mockito para mocks  
      - Soporte para Spring Boot Test y pruebas de integración  
 
+# Guía de Uso – Gestión de Usuarios con Spring Boot
+
+Esta guía detalla cómo configurar, ejecutar y utilizar la aplicación de gestión de usuarios desarrollada con **Java 17** y **Spring Boot 3.5.7**.
+
+## Requisitos Previos
+
+Asegúrese de tener instalados los siguientes componentes antes de ejecutar el proyecto:
+
+- **Java 17 JDK**
+- **Maven**
+- **Un editor o IDE** como IntelliJ IDEA, Eclipse o VS Code
+- **Opcional:** Un navegador web para acceder a la consola de la base de datos **H2**
 
 
 
