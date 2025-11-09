@@ -1,16 +1,19 @@
 package com.grupoinvestigaciondam.investigacion.controlador;
 
-import org.springframework.web.bind.annotation.RestController;
+import com.grupoinvestigaciondam.investigacion.entidades.Usuario;
+import com.grupoinvestigaciondam.investigacion.servicio.UsuarioServicio;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
-@RestController
-public class UsuarioControlador {
+import java.util.List;
 
     @RestController
     @RequestMapping("/api/usuarios")
     public class UsuarioController {
 
         @Autowired
-        private UsuarioService usuarioService;
+        private UsuarioServicio usuarioService;
 
         @GetMapping
         public List<Usuario> getAllUsuarios() {
@@ -29,7 +32,7 @@ public class UsuarioControlador {
             return usuarioService.save(usuario);
         }
 
-        @PutMapping("/{id}")
+        /**@PutMapping("/{id}")
         public ResponseEntity<Usuario> updateUsuario(@PathVariable Long id, @RequestBody Usuario usuario) {
             try {
                 Usuario actualizado = usuarioService.update(id, usuario);
@@ -37,12 +40,12 @@ public class UsuarioControlador {
             } catch (RuntimeException e) {
                 return ResponseEntity.notFound().build();
             }
-        }
+        }*/
 
         @DeleteMapping("/{id}")
         public ResponseEntity<Void> deleteUsuario(@PathVariable Long id) {
             usuarioService.deleteById(id);
             return ResponseEntity.noContent().build();
         }
+    }
 
-}
