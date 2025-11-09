@@ -28,7 +28,7 @@ src/main/java/com/grupoinvestigaciondam/investigacion/
 -Maven (gestión de dependencias)
 
 
-## DEPENDENCIAS
+## Dependencias
 Este proyecto utiliza **Spring Boot 3.5.7** y las siguientes dependencias principales:
 
 1. **spring-boot-starter-web**  
@@ -63,6 +63,7 @@ Este proyecto utiliza **Spring Boot 3.5.7** y las siguientes dependencias princi
      - JUnit 5 para pruebas unitarias  
      - Mockito para mocks  
      - Soporte para Spring Boot Test y pruebas de integración  
+
 
 
 
