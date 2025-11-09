@@ -1,21 +1,32 @@
 ## Proyecto: Gestión de Usuarios - Spring Boot
+Se trata de una aplicación CRUD de gestión de usuarios desarrollada con Java 17 y Spring Boot 3.5.7, utilizando Spring Data JPA para la persistencia de datos.
+Esta aplicacion permite crear, listar, actualizar y eliminar usuarios mediante endpoints REST
 
+## Estructura del archivo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+src/main/java/com/grupoinvestigaciondam/investigacion/
+├── controlador
+│   └── UsuarioController.java      # Define endpoints REST
+├── entidades
+│   └── Usuario.java                # Clase entidad Usuario
+├── repositorio
+│   └── UsuarioRepository.java      # Interfaz JPA para CRUD
+├── servicio
+│   └── UsuarioServicio.java        # Lógica de negocio de usuarios
+└── AppApplication.java             # Clase principal Spring Boot
 
-## Folder Structure
+## Tecnologías utilizadas
+-Java 17
+-Spring Boot 3.5.7
+-Spring Data JPA
+-H2 Database (en memoria para pruebas)
+-Lombok (opcional)
+-Maven (gestión de dependencias)
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
 ## Dependency Management
 
 The `JAVA PROJECTS` view alows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 Hola este es de antonio luis
+
 
