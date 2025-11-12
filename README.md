@@ -11,19 +11,19 @@
 
 src/main/java/com/grupoinvestigaciondam/investigacion/
 ├── controlador
-
-│   └── UsuarioController.java   # Define endpoints REST
-
+│  
+│   └── UsuarioController.java        # Define endpoints REST
+│  
 ├── entidades
-│   └── Usuario.java                # Clase entidad Usuario
-
+│   └── Usuario.java                  # Clase entidad Usuario
+│  
 ├── repositorio
-│   └── UsuarioRepository.java      # Interfaz JPA para CRUD
-
+│   └── UsuarioRepository.java        # Interfaz JPA para CRUD
+│  
 ├── servicio
-│   └── UsuarioServicio.java        # Lógica de negocio de usuarios
-
-└── AppApplication.java             # Clase principal Spring Boot
+│   └── UsuarioServicio.java          # Lógica de negocio de usuarios
+│  
+└── AppApplication.java               # Clase principal Spring Boot
 
 ## Tecnologías utilizadas
 -Java 17
@@ -99,6 +99,7 @@ Esta guía detalla cómo configurar, ejecutar y utilizar la aplicación de gesti
 -Para trabajar con el proyecto de gestión de usuarios, abra la carpeta del proyecto en su IDE preferido, 
 nosotros recomendamos usar IntelliJ IDEA.
 El IDE se encargará de reconocer automáticamente la configuración de Maven y Spring Boot.
+
 
 
 
