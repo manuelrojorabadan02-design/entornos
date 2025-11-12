@@ -1,6 +1,6 @@
 ## Proyecto: Gestión de Usuarios - Spring Boot
 
--Se trata de una aplicación CRUD de gestión de usuarios desarrollada con Java 17 y Spring Boot 3.5.7, utilizando Spring Data JPA para la persistencia de datos.
+-Se trata de una aplicación **CRUD** de **gestión de usuarios** desarrollada con Java 17 y Spring Boot 3.5.7, utilizando Spring Data JPA para la persistencia de datos.
 
 -Esta aplicacion **permite crear, listar, actualizar y eliminar usuarios** mediante endpoints REST.
 
@@ -109,6 +109,7 @@ Esta guía detalla cómo configurar, ejecutar y utilizar la aplicación de gesti
 -Para trabajar con el proyecto de gestión de usuarios, abra la carpeta del proyecto en su IDE preferido, 
 nosotros recomendamos usar IntelliJ IDEA.
 El IDE se encargará de reconocer automáticamente la configuración de Maven y Spring Boot.
+
 
 
 
